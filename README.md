@@ -5,5 +5,3 @@ I just started to read it and to get most benefit, I want to solve all problems 
 Quick github search with query "Programming Pearls Perl" returned zero results (and more than hundred results without language specification), so I feel myself a bit like a pioneer.
 
 I'm very bad in task estimating, but I want to solve all problems to october (one column a week).
-
-
