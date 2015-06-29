@@ -1,0 +1,1 @@
+The programmer said that he had about a thousand word of free storage, but the code we sketched uses 27 000/16 = 1688 words. He was able to scrounge the extra space without much trouble. If the 1000 words of space had been a hard and fast boundary, what would you have recommended& What is the run time of your algorithm?
