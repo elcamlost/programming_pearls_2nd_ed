@@ -23,9 +23,9 @@ close($input_file);
 open(my $output_file, '>', "./output_file.txt");
 
 #print sorted numbers
-for(my $bitVectorIndex = 1; $bitVectorIndex <= FILE_CONFIGURATION::MAXIMUM_NUMBERS_COUNT; $bitVectorIndex ++) {
-  if(vec($sorting_numbers, $bitVectorIndex, 1) == 1) {
-    say $output_file $bitVectorIndex;
+for(my $sorting_numbers_index = 1; $sorting_numbers_index <= FILE_CONFIGURATION::MAXIMUM_NUMBERS_COUNT; $sorting_numbers_index ++) {
+  if(vec($sorting_numbers, $sorting_numbers_index, 1) == 1) {
+    say $output_file $sorting_numbers_index;
   }
 }
 
