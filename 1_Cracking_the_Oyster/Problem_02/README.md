@@ -4,3 +4,5 @@ One barrier between the code sketch and a complete FORTRAN program is the implem
 
 ##Problem Solution
 I stuck to invent working approach to solve this problem without vec function. Left shift operator allows to shift only 64 bits (integer size on my machine). Of course, if we read input file 422 times ( int (27000 / 64) + 1 ), it helps and problem will be solved but its totally ineffective and, therefor, wrong solution.
+
+I think, problem can be solved using pack function. But this approach need investigation.
